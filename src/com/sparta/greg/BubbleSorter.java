@@ -20,10 +20,7 @@ public class BubbleSorter implements Sorter {
             }
         }
         return arrayToSort;
-
     }
-
-
 }
 
 
