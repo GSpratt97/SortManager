@@ -1,9 +1,14 @@
-package com.sparta.greg;
+package com.sparta.greg.sort;
 
 public class BubbleSorter implements Sorter {
+    @Override
     public int[] sortArray(int[] arrayToSort) {
+        return bubbleSorter(arrayToSort);
+    }
+
+    public int[] bubbleSorter(int[] array) {
         // Save length of array to a variable
-        int arrayLength = arrayToSort.length;
+        int arrayLength = array.length;
 
         // For loop sorts through array
         for(int i=0; i < arrayLength - 1; i++) {
@@ -11,15 +16,15 @@ public class BubbleSorter implements Sorter {
             for(int j = 0; j < arrayLength - i -1; j++){
                 // Compare this value with next value in array
                 // If true (larger) swap integers
-                if (arrayToSort[j] > arrayToSort[j+1]) {
+                if (array[j] > array[j+1]) {
                     // Assign temp value to allow swap
-                    int temporaryVariable = arrayToSort[j];
-                    arrayToSort[j] = arrayToSort[j+1];
-                    arrayToSort[j+1] = temporaryVariable;
+                    int temporaryVariable = array[j];
+                    array[j] = array[j+1];
+                    array[j+1] = temporaryVariable;
                 }
             }
         }
-        return arrayToSort;
+        return array;
     }
 }
 
