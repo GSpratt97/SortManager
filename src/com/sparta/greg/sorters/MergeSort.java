@@ -1,4 +1,6 @@
-package com.sparta.greg.sort;
+package com.sparta.greg.sorters;
+
+import com.sparta.greg.sorters.Sorter;
 
 public class MergeSort implements Sorter {
 
@@ -8,7 +10,6 @@ public class MergeSort implements Sorter {
         mergeSort(arrayToSort, length);
         return arrayToSort;
     }
-
 
     public static void mergeSort(int[] array, int lengthOfArray) {
         if (lengthOfArray < 2) {return;}
@@ -26,22 +27,21 @@ public class MergeSort implements Sorter {
         mergeSort(rightArray, lengthOfArray - midPoint);
 
         merge(array, leftArray, rightArray, midPoint, lengthOfArray - midPoint);
-
     }
 
     public static void merge(int[] array, int[] leftArray, int[] rightArray, int left, int right) {
-        int i = 0;
+        int leftArrayIndex = 0;
         int j = 0;
         int k = 0;
-        while (i < left && j < right) {
-            if (leftArray[i] <= rightArray[j]) {
-                array[k++] = leftArray[i++];
+        while (leftArrayIndex < left && j < right) {
+            if (leftArray[leftArrayIndex] <= rightArray[j]) {
+                array[k++] = leftArray[leftArrayIndex++];
             } else {
                 array[k++] = rightArray[j++];
             }
         }
-        while (i < left) {
-            array[k++] = leftArray[i++];
+        while (leftArrayIndex < left) {
+            array[k++] = leftArray[leftArrayIndex++];
         }
         while (j < right) {
             array[k++] = rightArray[j++];

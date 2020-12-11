@@ -1,6 +1,8 @@
-package com.sparta.greg.sort;
+package com.sparta.greg.sorters;
 
 public class MergeArrays {
+
+
     public static int[] mergeArrays(int[] arrayOne, int[] arrayTwo) {
         // Get length of combined array
         int sizeOfArray = arrayOne.length + arrayTwo.length;

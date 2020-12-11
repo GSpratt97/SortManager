@@ -1,12 +1,14 @@
-package com.sparta.greg.sort;
+package com.sparta.greg.sorters;
 
-public class BubbleSorter implements Sorter {
+import com.sparta.greg.sorters.Sorter;
+
+public class BubbleSort implements Sorter {
     @Override
     public int[] sortArray(int[] arrayToSort) {
-        return bubbleSorter(arrayToSort);
+        return bubbleSort(arrayToSort);
     }
 
-    public int[] bubbleSorter(int[] array) {
+    public int[] bubbleSort(int[] array) {
         // Save length of array to a variable
         int arrayLength = array.length;
 

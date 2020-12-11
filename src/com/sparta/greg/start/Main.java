@@ -1,4 +1,6 @@
-package com.sparta.greg.sort;
+package com.sparta.greg.start;
+
+import com.sparta.greg.start.Starter;
 
 public class Main {
 
@@ -13,22 +15,22 @@ public class Main {
 //        4. The program should then output:
 //        - The unsorted randomly generated array
 //        - The sort algorithm to be used
-//                - The sorted array after the algorithm has been executed
+//        - The sorted array after the algorithm has been executed
 //        - The time taken
 //
 //        You are required to test both the functionality of the program and the peformance of the algorithms (speed tests)
 //        You should include but are not limited to:
 //        - BubbleSort
-//                - InsertionSort
-//                - MergeSort (iterative or recursive)
-//                - QuickSort
-//                - SelectionSort
-//                - BinaryTreeSort
+//        - InsertionSort
+//        - MergeSort (iterative or recursive)
+//        - QuickSort
+//        - SelectionSort
+//        - BinaryTreeSort
 //
 //        Additions:
 //        - GUI
-//                - Logging
-//                - Generic Sorts (Consider interaction with a suitable interface)
+//        - Logging
+//        - Generic Sorts (Consider interaction with a suitable interface)
 //        - Good code structure in accordance with design patterns (refactoring)
 //
 //        Submission:

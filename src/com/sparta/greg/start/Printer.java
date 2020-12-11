@@ -1,4 +1,4 @@
-package com.sparta.greg.sort;
+package com.sparta.greg.start;
 
 public class Printer {
     public static void printMessage(String message) {
