@@ -1,0 +1,2 @@
+2020-12-12 20:08:28,438 ERROR c.s.g.s.Main [main] This is an error message
+2020-12-12 20:08:28,441 FATAL c.s.g.s.Main [main] This is a fatal message
