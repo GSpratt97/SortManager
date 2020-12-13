@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="" name="MyApp" packages="">
+<Configuration status="WARN" name="MyApp" packages="">
     <Appenders>
         <File name="MyFile" fileName="target/log/sortLog.log">
             <PatternLayout>
@@ -11,28 +11,8 @@
         </Async>
     </Appenders>
     <Loggers>
-        <Root level="">
+        <Root level="DEBUG">
             <AppenderRef ref="Async"/>
         </Root>
     </Loggers>
 </Configuration>
-
-
-
-
-<!--<?xml version="1.0" encoding="UTF-8"?>-->
-<!--<Configuration status="WARN">-->
-<!--    <Appenders>-->
-<!--        <Console name="Console" target="SYSTEM_OUT">-->
-<!--            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>-->
-<!--        </Console>-->
-<!--    </Appenders>-->
-
-
-
-<!--    <Loggers>-->
-<!--        <Root level="trace">-->
-<!--            <AppenderRef ref="Console"/>-->
-<!--        </Root>-->
-<!--    </Loggers>-->
-<!--</Configuration>-->

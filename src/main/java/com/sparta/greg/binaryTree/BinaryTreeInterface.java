@@ -4,22 +4,22 @@ import com.sparta.greg.exceptions.ChildNotFoundException;
 
 public interface BinaryTreeInterface {
 
-    int getRootElement(); // Ok
+    int getRootElement();
 
-    int getNumberOfElements(); // Ok
+    int getNumberOfElements();
 
-    void addElements(final int[] elements); // Ok
+    void addElements(final int[] elements);
 
-    void addElement(final int element); // Ok
+    void addElement(final int element);
 
-    boolean findElement(final int value); // Ok
+    boolean findElement(final int value);
 
-    int getLeftChild(int element) throws ChildNotFoundException; // Ok
+    int getLeftChild(int element) throws ChildNotFoundException;
 
-    int getRightChild(int element) throws ChildNotFoundException; // Ok
+    int getRightChild(int element) throws ChildNotFoundException;
 
-    int[] getSortedTreeAsc(); // Ok
+    int[] getSortedTreeAsc();
 
-    int[] getSortedTreeDesc(); // Ok
+    int[] getSortedTreeDesc();
 
 }

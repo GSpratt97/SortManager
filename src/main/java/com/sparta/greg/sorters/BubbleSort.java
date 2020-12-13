@@ -7,17 +7,16 @@ public class BubbleSort implements Sorter {
     }
 
     public int[] bubbleSort(int[] array) {
-        // Save length of array to a variable
+        // Get array length
         int arrayLength = array.length;
 
-        // For loop sorts through array
+        // Loop through entire array
         for(int i=0; i < arrayLength - 1; i++) {
-            // Inner for loop
+            // Loop to compare values
             for(int j = 0; j < arrayLength - i -1; j++){
-                // Compare this value with next value in array
-                // If true (larger) swap integers
+                // Compare values, if true (larger) swap integers
                 if (array[j] > array[j+1]) {
-                    // Assign temp value to allow swap
+                    // Swap values
                     int temporaryVariable = array[j];
                     array[j] = array[j+1];
                     array[j+1] = temporaryVariable;

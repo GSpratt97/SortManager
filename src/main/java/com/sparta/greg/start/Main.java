@@ -1,6 +1,7 @@
 package com.sparta.greg.start;
 
 import com.sparta.greg.display.DisplayManager;
+import com.sparta.greg.exceptions.ArrayLengthOutOfBounds;
 import com.sparta.greg.exceptions.SorterLoaderException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -8,13 +9,14 @@ import org.apache.logging.log4j.Logger;
 public class Main {
 
     private static Logger Logger = LogManager.getLogger(Main.class);
-    public static void main(String[] args) throws SorterLoaderException {
+    public static void main(String[] args) throws SorterLoaderException, ArrayLengthOutOfBounds {
+        Logger.info("The program has been initialised!");
         DisplayManager.start();
-        Logger.debug("This is a debug message");
-        Logger.info("This is an info message");
-        Logger.warn("This is a warning message");
-        Logger.error("This is an error message");
-        Logger.fatal("This is a fatal message");
+//        Logger.debug("This is a debug message");
+//        Logger.info("This is an info message");
+//        Logger.warn("This is a warning message");
+//        Logger.error("This is an error message");
+//        Logger.fatal("This is a fatal message");
 
 //        Requirements:
 //        1. Client is presented with a number of sort algorithms to choose from

@@ -7,8 +7,12 @@ public class InsertionSort implements Sorter{
         sort(arrayToSort);
         return arrayToSort;
     }
+
+
     public void sort(int[] arrayToSort) {
+        // Get array length
         int lengthOfArray = arrayToSort.length;
+
         for (int i =1; i < lengthOfArray; ++i) {
             int key = arrayToSort[i];
             int j = i - 1;
