@@ -1,7 +1,6 @@
 package com.sparta.greg.sorters;
 
 import com.sparta.greg.binaryTree.BinaryTree;
-import com.sparta.greg.start.Main;
 import com.sparta.greg.start.Printer;
 
 import org.apache.logging.log4j.LogManager;
@@ -12,8 +11,8 @@ public class BinaryTreeSort implements Sorter {
 
     @Override
     public int[] sortArray(int[] unsortedArray) {
-        Printer.printMessage("Please note binary search algorithm removes duplicates!");
-        Logger.warn("Please note binary search algorithm removes duplicates!");
+        Printer.printMessage("Please note binary search algorithm removes duplicates! This also makes it faster with large arrays.");
+        Logger.warn("Please note binary search algorithm removes duplicates! This also makes it faster with large arrays.");
         return binaryTreeSort(unsortedArray);
     }
 

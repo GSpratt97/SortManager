@@ -12,3 +12,18 @@
 2020-12-13 18:53:21,107 INFO c.s.g.d.DisplayManager [main] Array sorted using method: InsertionSort
 2020-12-13 18:53:21,107 INFO c.s.g.d.DisplayManager [main] Sorted array printed to console
 2020-12-13 18:53:21,111 INFO c.s.g.d.DisplayManager [main] Time taken to sort array: 2 ms
+2020-12-13 19:09:21,585 INFO c.s.g.s.Main [main] The program has been initialised!
+2020-12-13 19:09:24,370 INFO c.s.g.d.DisplayManager [main] User has input value '2' which is the 'InsertionSort' method
+2020-12-13 19:09:26,188 INFO c.s.g.d.DisplayManager [main] User has inputted array length: 655
+2020-12-13 19:09:26,192 INFO c.s.g.d.DisplayManager [main] Random array generated and printed to console
+2020-12-13 19:09:26,195 INFO c.s.g.d.DisplayManager [main] Array sorted using method: InsertionSort
+2020-12-13 19:09:26,195 INFO c.s.g.d.DisplayManager [main] Sorted array printed to console
+2020-12-13 19:09:26,199 INFO c.s.g.d.DisplayManager [main] Time taken to sort array: 2 ms
+2020-12-13 19:10:04,838 INFO c.s.g.s.Main [main] The program has been initialised!
+2020-12-13 19:10:07,177 INFO c.s.g.d.DisplayManager [main] User has input value '6' which is the 'BinaryTreeSort' method
+2020-12-13 19:10:08,812 INFO c.s.g.d.DisplayManager [main] User has inputted array length: 767
+2020-12-13 19:10:08,816 INFO c.s.g.d.DisplayManager [main] Random array generated and printed to console
+2020-12-13 19:10:08,817 WARN c.s.g.s.BinaryTreeSort [main] Please note binary search algorithm removes duplicates!
+2020-12-13 19:10:08,819 INFO c.s.g.d.DisplayManager [main] Array sorted using method: BinaryTreeSort
+2020-12-13 19:10:08,820 INFO c.s.g.d.DisplayManager [main] Sorted array printed to console
+2020-12-13 19:10:08,823 INFO c.s.g.d.DisplayManager [main] Time taken to sort array: 2 ms
