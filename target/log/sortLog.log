@@ -1,59 +1,14 @@
-2020-12-13 13:54:25,933 WARN c.s.g.s.BinaryTreeSort [main] Please note binary search algorithm removes duplicates!
-2020-12-13 13:55:01,899 WARN c.s.g.s.RandomArrayGenerator [main] Length of array is greater than 99_999! Value entered: 99999999
-2020-12-13 13:55:10,816 WARN c.s.g.s.BinaryTreeSort [main] Please note binary search algorithm removes duplicates!
-2020-12-13 13:56:19,048 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:00:55,980 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:00:59,343 INFO c.s.g.d.DisplayManager [main] User has input value via scanner
-2020-12-13 14:00:59,343 INFO c.s.g.d.DisplayManager [main] User has chosen: QuickSort
-2020-12-13 14:01:47,933 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:01:48,855 INFO c.s.g.d.DisplayManager [main] User has input value via scanner
-2020-12-13 14:01:48,856 INFO c.s.g.d.DisplayManager [main] User has chosen: SelectionSort
-2020-12-13 14:02:26,070 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:02:28,538 INFO c.s.g.d.DisplayManager [main] User has input value 3 via scanner
-2020-12-13 14:02:28,539 INFO c.s.g.d.DisplayManager [main] User has chosen: MergeSort
-2020-12-13 14:02:56,691 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:02:59,533 INFO c.s.g.d.DisplayManager [main] User has input value '2' via scanner
-2020-12-13 14:02:59,533 INFO c.s.g.d.DisplayManager [main] User has chosen: InsertionSort
-2020-12-13 14:04:15,568 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:04:17,229 INFO c.s.g.d.DisplayManager [main] User has input value '9' via scanner
-2020-12-13 14:04:17,230 ERROR c.s.g.d.DisplayManager [main] Sort method was not selected! Value entered: 9
-2020-12-13 14:04:43,965 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:04:45,624 INFO c.s.g.d.DisplayManager [main] User has input value '4' via scanner
-2020-12-13 14:04:45,624 INFO c.s.g.d.DisplayManager [main] User has chosen: QuickSort
-2020-12-13 14:06:05,487 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:06:09,626 INFO c.s.g.d.DisplayManager [main] User has input value '5' which is the 'SelectionSort' method
-2020-12-13 14:15:49,720 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:15:52,025 INFO c.s.g.d.DisplayManager [main] User has input value '4' which is the 'QuickSort' method
-2020-12-13 14:15:53,997 INFO c.s.g.d.DisplayManager [main] User has inputted array length: 565
-2020-12-13 14:15:53,998 INFO c.s.g.d.DisplayManager [main] Random array generated and printed to console
-2020-12-13 14:15:54,000 INFO c.s.g.d.DisplayManager [main] Array sorted using method
-2020-12-13 14:15:54,000 INFO c.s.g.d.DisplayManager [main] Sorted array printed to console
-2020-12-13 14:15:54,005 INFO c.s.g.d.DisplayManager [main] Time taken to sort array: 0 ms
-2020-12-13 14:16:32,523 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:16:33,025 INFO c.s.g.d.DisplayManager [main] User has input value '6' which is the 'BinaryTreeSort' method
-2020-12-13 14:16:34,525 INFO c.s.g.d.DisplayManager [main] User has inputted array length: 656
-2020-12-13 14:16:34,527 INFO c.s.g.d.DisplayManager [main] Random array generated and printed to console
-2020-12-13 14:16:34,528 WARN c.s.g.s.BinaryTreeSort [main] Please note binary search algorithm removes duplicates!
-2020-12-13 14:16:34,532 INFO c.s.g.d.DisplayManager [main] Array sorted using methodBinaryTreeSort
-2020-12-13 14:16:34,533 INFO c.s.g.d.DisplayManager [main] Sorted array printed to console
-2020-12-13 14:16:34,537 INFO c.s.g.d.DisplayManager [main] Time taken to sort array: 4 ms
-2020-12-13 14:16:47,725 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:16:50,746 INFO c.s.g.d.DisplayManager [main] User has input value '5' which is the 'SelectionSort' method
-2020-12-13 14:16:52,067 INFO c.s.g.d.DisplayManager [main] User has inputted array length: 4544
-2020-12-13 14:16:52,071 INFO c.s.g.d.DisplayManager [main] Random array generated and printed to console
-2020-12-13 14:16:52,095 INFO c.s.g.d.DisplayManager [main] Array sorted using method: SelectionSort
-2020-12-13 14:16:52,096 INFO c.s.g.d.DisplayManager [main] Sorted array printed to console
-2020-12-13 14:16:52,100 INFO c.s.g.d.DisplayManager [main] Time taken to sort array: 23 ms
-2020-12-13 14:19:00,118 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:19:02,276 INFO c.s.g.d.DisplayManager [main] User has input value '6' which is the 'BinaryTreeSort' method
-2020-12-13 14:19:05,405 INFO c.s.g.d.DisplayManager [main] User has inputted array length: 999999
-2020-12-13 14:19:05,407 WARN c.s.g.s.RandomArrayGenerator [main] Length of array is greater than 99_999! Value entered: 999999
-2020-12-13 14:19:05,516 INFO c.s.g.d.DisplayManager [main] Random array generated and printed to console
-2020-12-13 14:19:05,516 WARN c.s.g.s.BinaryTreeSort [main] Please note binary search algorithm removes duplicates!
-2020-12-13 14:19:05,561 INFO c.s.g.d.DisplayManager [main] Array sorted using method: BinaryTreeSort
-2020-12-13 14:19:05,561 INFO c.s.g.d.DisplayManager [main] Sorted array printed to console
-2020-12-13 14:19:05,564 INFO c.s.g.d.DisplayManager [main] Time taken to sort array: 44 ms
-2020-12-13 14:21:18,575 INFO c.s.g.s.Main [main] The program has been initialised!
-2020-12-13 14:21:19,928 ERROR c.s.g.d.DisplayManager [main] Sort method was not selected! Value entered: 23
-2020-12-13 14:21:19,928 ERROR c.s.g.e.SorterLoaderException [main] Error picking sorter! Please pick sorter from list provided.
-2020-12-13 18:11:43,914 INFO c.s.g.s.Main [main] The program has been initialised!
+2020-12-13 18:46:26,728 INFO c.s.g.s.Main [main] The program has been initialised!
+2020-12-13 18:46:29,625 INFO c.s.g.d.DisplayManager [main] User has input value '3' which is the 'MergeSort' method
+2020-12-13 18:46:38,494 INFO c.s.g.d.DisplayManager [main] User has inputted array length: 87454
+2020-12-13 18:46:38,521 INFO c.s.g.d.DisplayManager [main] Random array generated and printed to console
+2020-12-13 18:46:38,545 INFO c.s.g.d.DisplayManager [main] Array sorted using method: MergeSort
+2020-12-13 18:46:38,555 INFO c.s.g.d.DisplayManager [main] Sorted array printed to console
+2020-12-13 18:46:38,560 INFO c.s.g.d.DisplayManager [main] Time taken to sort array: 23 ms
+2020-12-13 18:51:15,366 INFO c.s.g.s.Main [main] The program has been initialised!
+2020-12-13 18:52:37,222 INFO c.s.g.d.DisplayManager [main] User has input value '2' which is the 'InsertionSort' method
+2020-12-13 18:53:21,101 INFO c.s.g.d.DisplayManager [main] User has inputted array length: 545
+2020-12-13 18:53:21,104 INFO c.s.g.d.DisplayManager [main] Random array generated and printed to console
+2020-12-13 18:53:21,107 INFO c.s.g.d.DisplayManager [main] Array sorted using method: InsertionSort
+2020-12-13 18:53:21,107 INFO c.s.g.d.DisplayManager [main] Sorted array printed to console
+2020-12-13 18:53:21,111 INFO c.s.g.d.DisplayManager [main] Time taken to sort array: 2 ms
